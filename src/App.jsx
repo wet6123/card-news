@@ -7,11 +7,9 @@ const router = createBrowserRouter(routes);
 
 function App() {
   return (
-    <>
-      <ConfigProvider theme={theme}>
-        <RouterProvider router={router} />
-      </ConfigProvider>
-    </>
+    <ConfigProvider theme={theme}>
+      <RouterProvider router={router} />
+    </ConfigProvider>
   );
 }
 

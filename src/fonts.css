@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/PretendardVariable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tenada";
+  src: url("/fonts/Tenada.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
