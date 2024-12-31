@@ -8,6 +8,7 @@ export default {
         95: "380px",
       },
       height: {
+        17: "68px",
         65: "260px",
         95: "380px",
         208: "832px",
