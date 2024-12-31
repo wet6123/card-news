@@ -1,6 +1,6 @@
-import CardnewsExample from "./CardnewsExample";
-import Intro from "./intro";
-import ServiceStep from "./ServiceStep";
+import CardnewsExample from "./components/CardnewsExample";
+import Intro from "./components/Intro";
+import ServiceStep from "./components/ServiceStep";
 
 const MainIndex = () => {
   return (
