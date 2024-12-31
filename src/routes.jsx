@@ -1,8 +1,8 @@
 import CardNewsError from "./components/common/CardNewsError";
 import MainLayout from "./components/layouts/MainLayout";
-import MainIndex from "./pages/main/index";
-import CreateIndex from "./pages/create/index";
-import DownloadIndex from "./pages/download/index";
+import MainIndex from "./pages/main/Index";
+import CreateIndex from "./pages/create/Index";
+import DownloadIndex from "./pages/download/Index";
 import PrivateRoute from "./components/common/PrivateRoute";
 
 const AccessType = Object.freeze({
