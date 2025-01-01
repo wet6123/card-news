@@ -3,7 +3,10 @@
     "moduleResolution": "node",
     "target": "es6",
     "baseUrl": "./src",
-    "jsx": "react"
+    "jsx": "react",
+    "paths": {
+      "antd": ["../node_modules/antd"]
+    }
   },
   "exclude": ["node_modules"]
 }
