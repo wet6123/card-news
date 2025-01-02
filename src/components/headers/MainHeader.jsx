@@ -13,14 +13,14 @@ const MainHeader = () => {
       style={{
         position: "sticky",
         top: 0,
-        zIndex: 1,
         width: "100%",
         display: "flex",
         alignItems: "center",
       }}
+      className="z-50"
     >
       <img src="/cardinai-w.svg" alt="Logo" className="w-16 h-auto" />
-      <Menu
+      {/* <Menu
         theme="dark"
         mode="horizontal"
         defaultSelectedKeys={["1"]}
@@ -29,7 +29,7 @@ const MainHeader = () => {
           flex: 1,
           minWidth: 0,
         }}
-      />
+      /> */}
     </Header>
   );
 };
