@@ -29,7 +29,9 @@ const CreateIndex = () => {
         data: data,
       });
 
-      navigate("/download", { state: { data: response.data } });
+      navigate("/download", {
+        state: { data: response.data, imageType: imageType },
+      });
     } catch (error) {
       console.error("Error:", error);
       message.error("뉴스를 요약하는 중에 오류가 발생했습니다");
@@ -41,7 +43,7 @@ const CreateIndex = () => {
   return (
     <>
       <Spin spinning={loading} tip="뉴스를 요약하는 중..." fullscreen></Spin>
-      <div className="h-208 flex flex-col justify-center">
+      <div className="h-208 flex flex-col justify-center mx-auto max-w-5xl">
         <div className="max-w-5xl">
           <Title level={3}>본문 입력</Title>
           <p>카드뉴스로 만들 내용을 입력해주세요.</p>
